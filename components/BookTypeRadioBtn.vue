@@ -1,7 +1,7 @@
 <template>
   <div class="flex gap-10">
   <div class="inline-flex items-center">
-    <label class="relative flex items-center p-3 pr-0 rounded-full cursor-pointer" htmlFor="printed">
+    <label class="relative flex items-center p-3 pr-0 rounded-full cursor-pointer">
       <input name="type" type="radio"
         class="before:content[''] peer relative h-6 w-6 cursor-pointer appearance-none rounded-full border border-[#777777] text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-10"
         id="printed"
@@ -16,12 +16,12 @@
         </svg>
       </span>
     </label>
-    <label class="mt-px font-medium text-sm text-gray-700 cursor-pointer select-none" htmlFor="printed">
+    <label class="mt-px font-medium text-sm text-gray-700 cursor-pointer select-none" for="printed">
       كتاب مطبوع
     </label>
   </div>
   <div class="inline-flex items-center">
-    <label class="relative flex items-center p-3 pr-0 rounded-full cursor-pointer" htmlFor="pdf">
+    <label class="relative flex items-center p-3 pr-0 rounded-full cursor-pointer">
       <input name="type" type="radio"
         class="before:content[''] peer relative h-6 w-6 cursor-pointer appearance-none rounded-full border border-[#777777] text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-10"
         id="pdf"
@@ -36,7 +36,7 @@
         </svg>
       </span>
     </label>
-    <label class="mt-px font-medium text-sm text-gray-700 cursor-pointer select-none" htmlFor="pdf">
+    <label class="mt-px font-medium text-sm text-gray-700 cursor-pointer select-none" for="pdf">
       كتاب PDF
     </label>
   </div>
