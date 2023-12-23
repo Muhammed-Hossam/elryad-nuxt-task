@@ -95,7 +95,9 @@ export default {
       this.bookCount++;
     },
     decreaseBookCount() {
-      this.bookCount--;
+      if (this.bookCount !== 1) {
+        this.bookCount--;
+      }
     },
     getBookType(type) {
       this.bookType = type;
